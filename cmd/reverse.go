@@ -13,9 +13,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"xorm.io/reverse/pkg/conf"
-	"xorm.io/reverse/pkg/language"
-	"xorm.io/reverse/pkg/utils"
+	"github.com/kkoudev/xorm-reverse/pkg/conf"
+	"github.com/kkoudev/xorm-reverse/pkg/language"
+	"github.com/kkoudev/xorm-reverse/pkg/utils"
 
 	"gitea.com/lunny/log"
 	underscore "github.com/ahl5esoft/golang-underscore"

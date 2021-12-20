@@ -24,7 +24,7 @@ v1.0.0 相对于 v0.8.2 有以下不兼容的变更：
 * 支持级联加载Struct
 * Schema支持（仅Postgres）
 * 支持缓存
-* 通过 [xorm.io/reverse](https://xorm.io/reverse) 支持根据数据库自动生成 xorm 结构体
+* 通过 [github.com/kkoudev/xorm-reverse](https://github.com/kkoudev/xorm-reverse) 支持根据数据库自动生成 xorm 结构体
 * 支持记录版本（即乐观锁）
 * 通过 [xorm.io/builder](https://xorm.io/builder) 内置 SQL Builder 支持
 * 上下文缓存支持

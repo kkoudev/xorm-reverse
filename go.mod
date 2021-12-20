@@ -1,4 +1,4 @@
-module xorm.io/reverse
+module github.com/kkoudev/xorm-reverse
 
 go 1.15
 
@@ -19,5 +19,9 @@ require (
 	github.com/stretchr/testify v1.7.0
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
 	modernc.org/sqlite v1.14.2 // indirect
-	xorm.io/xorm v1.2.4-0.20211214010035-a2d3669edf92
+	xorm.io/xorm v1.2.4-0.20211214010035-a2d3669edf92 // indirect
+)
+
+replace (
+	xorm.io/xorm => github.com/kkoudev/xorm v1.2.6
 )

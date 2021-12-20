@@ -7,7 +7,7 @@ package language
 import (
 	"html/template"
 
-	"xorm.io/reverse/pkg/conf"
+	"github.com/kkoudev/xorm-reverse/pkg/conf"
 	"xorm.io/xorm/schemas"
 )
 

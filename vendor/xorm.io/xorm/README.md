@@ -22,7 +22,7 @@ v1.0.0 has some break changes from v0.8.2.
 * Both ORM and raw SQL operation Support
 * Sync database schema Support
 * Query Cache speed up
-* Database Reverse support via [xorm.io/reverse](https://xorm.io/reverse)
+* Database Reverse support via [github.com/kkoudev/xorm-reverse](https://github.com/kkoudev/xorm-reverse)
 * Simple cascade loading support
 * Optimistic Locking support
 * SQL Builder support via [xorm.io/builder](https://xorm.io/builder)
